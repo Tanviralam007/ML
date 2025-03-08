@@ -33,7 +33,7 @@ The dataset is split into training and test sets, preparing it for modeling. The
 5. **Support Vector Machine (SVM)**
 
 ### **Model Accuracy Comparison**
-![Model Performance](model_perfrom.png)
+![Model Performance](./model_perform.png)
 
 ### **Conclusion**
 The notebook successfully builds and evaluates machine learning models for heart disease prediction. The models' performance is assessed through key metrics, providing insights into how well each classifier predicts heart disease. This notebook is still undergoing the contribution of some of my groupmates for optimization.
