@@ -20,7 +20,7 @@ The goal of this project is to predict the diameter of an asteroid based on feat
 3. **Feature Engineering & Selection**  
    - Engineer new features using a physics-based formula:
      $$
-     \text{computed_diameter} = \frac{1329}{\sqrt{\text{albedo}}} \times 10^{-0.2 \times H}
+        \text{computed_diameter} = \frac{1329}{\sqrt{\text{albedo}}} \times 10^{-0.2 \times H}
      $$
    - Create a log-transformed version of the computed diameter.
    - Select the most relevant features for the regression model based on correlation analysis.
