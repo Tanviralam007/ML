@@ -18,9 +18,7 @@ The goal of this project is to predict the diameter of an asteroid based on feat
 
 3. **Feature Engineering & Selection**  
    - Engineer new features using a physics-based formula:
-     \[
-     \text{computed\_diameter} = \frac{1329}{\sqrt{\text{albedo}}} \times 10^{-0.2 \times H}
-     \]
+       `computed_diameter = 1329 / sqrt(albedo) * 10^(-0.2 * H)`
    - Create a log-transformed version of the computed diameter.
    - Select the most relevant features for the regression model based on correlation analysis.
 
@@ -36,21 +34,6 @@ The goal of this project is to predict the diameter of an asteroid based on feat
    - Evaluate the best model on the test set and generate an accuracy report.
    - Analyze feature importances for model interpretation.
 
-## Installation
-
-1. **Clone the Repository**
-
-   ```
-   git clone https://github.com/yourusername/Asteroid-Diameter-Prediction.git
-   cd Asteroid-Diameter-Prediction
-   
-2. **Set Up the Environment**
-   Create a virtual environment and install the required dependencies:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-
-3. **Dataset**
+**Dataset**
    Download the dataset from Kaggle and place it in the project directory:\
    [Asteroid Dataset on Kaggle](https://www.kaggle.com/datasets/sakhawat18/asteroid-dataset)
